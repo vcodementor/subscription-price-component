@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>Subscription Component</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"/>
+  <link rel="stylesheet" href="./css/style.css?v=1.0" />
+
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="subscription-component-header-container">
+    <h1 class="subscription-component-header-title"> Our Pricing </h1>
+    <div class="subscription-component-toggle-container"> 
+      <label class="subscription-component-toggle-choice"> Anually</label> 
+      <input type="checkbox" name="toggle" id="toggle" role="switch" class="subscription-component-toggle-switch"> 
+      <label for="toggle" class="subscription-component-toggle-choice"> Monthly </label> 
+    </div>
+    </div>
+    <div class="subscription-component-subscription-list-container">
+      <div class="subscription-component-subscription-container">
+        <h2 class="subscription-component-subscription-title"> Basic</h2>
+        <div class="subscription-component-subscription-price" id="basicSubscriptionPrice">&dollar;199.99</div>
+        <div class="subscription-component-subscription-feature-container">
+          <div class="subscription-component-subscription-feature">500 GB Storage</div>
+          <div class="subscription-component-subscription-feature">2 Users Allowed</div>
+          <div class="subscription-component-subscription-feature">Send up to 3 GB</div>
+        </div>
+        <button class="subscription-component-learn-more-container">Learn More</button>
+      </div>
+      <div class="subscription-component-subscription-container">
+        <h2 class="subscription-component-subscription-title"> Professional</h2>
+        <div class="subscription-component-subscription-price" id="professionalSubscriptionPrice">&dollar;249.99</div>
+        <div class="subscription-component-subscription-feature-container">
+          <div class="subscription-component-subscription-feature">1 TB Storage</div>
+          <div class="subscription-component-subscription-feature">5 Users Allowed</div>
+          <div class="subscription-component-subscription-feature">Send up to 10 GB</div>
+        </div>
+        <button class="subscription-component-learn-more-container">Learn More</button>
+      </div>
+      <div class="subscription-component-subscription-container">
+        <h2 class="subscription-component-subscription-title"> Master</h2>
+        <div class="subscription-component-subscription-price" id="masterSubscriptionPrice">&dollar;399.99</div>
+        <div class="subscription-component-subscription-feature-container">
+          <div class="subscription-component-subscription-feature">2 TB Storage</div>
+          <div class="subscription-component-subscription-feature">10 Users Allowed</div>
+          <div class="subscription-component-subscription-feature">Send up to 20 GB</div>
+        </div>
+        <button class="subscription-component-learn-more-container">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js?v=1.0"></script>
+</body>
+</html>
